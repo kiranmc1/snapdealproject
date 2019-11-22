@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background:#eee;
+}
+
+#headerSection {
+    background: #e40046;
+    height: 100px;
+}
+
+#headerSection .marginleftandrightspace,
+.logoandcartSection>article,#contentsection>article {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.topMenu p {
+    margin: 0;
+
+}
+
+.topMenu {
+    background: #c6003d;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    height: 30px;
+    line-height: 28px;
+    font-size: 12px;
+}
+
+.leftpara {
+    width: 50%;
+    float: left;
+}
+
+.rightUlMenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+
+.rightUlMenu li {
+    display: inline-block;
+}
+
+.rightUlMenu li a {
+    color: white;
+    text-decoration: none;
+    padding: 0 12px;
+
+}
+
+/* 
+logoandcartsection css */
+
+.logoandcartSection>article .logo {
+    width: 17%;
+    float: left;
+    position: relative;
+    top: 18px
+}
+
+.logoandcartSection>article .search {
+    width: 63%;
+    float: left;
+    line-height: 70px;
+}
+
+.logoandcartSection>article .cart {
+    width: 20%;
+    float: right;
+    line-height: 70px;
+
+}
+
+#search {
+    width: 70%;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 2px;
+    background: #fff;
+    color: #909090;
+}
+
+.searchText {
+    padding: 8px 30px;
+    background: #111;
+    color: #fff;
+    border-radius: 0px 3px 3px 0px;
+    margin: 0px -5px;
+    position: relative;
+    top: 1px;
+}
+
+#insideDiv {
+    position: absolute;
+    display: none;
+    border-radius: 4px 0px 4px 4px;
+}
+
+.rightNavigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.rightNavigation li {
+    display: inline-block;
+    text-align:left !important;
+
+}
+
+.rightNavigation li a {
+    padding: 26px;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.fa-shopping-cart {
+    font-size: 24px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    border-radius: 4px 4px 0px 0px;
+    
+}
+
+.rightNavigation .dropdown:hover {
+    background: #333;
+}
+
+.rightNavigation .dropdown ul li {
+    padding: 0;
+    margin: 0;
+}
+.rightNavigation .dropdown ul li:hover{
+   background: rgb(0,0,0,0.1);
+}
+
+.rightNavigation .dropdown ul {
+    line-height: 30px;
+    margin-top: 13px;
+}
+
+.rightNavigation .dropdown:hover #insideDiv {
+    background:  #333;
+    display: inline-block;
+    top: 70px;
+    width: 200px;
+    right: 0;
+    height: 292px
+}
+
+.insideList li a {
+    width: 100%;
+    padding: 9px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-size: 11px;
+    margin-top: -33px;
+    margin-right: 0px;
+
+}
+
+#contentsection{
+    background: #eee;
+    height: 100vh;
+}
+/*vh=view height*/
+.contentleft{
+    width:20%;
+    float:left;
+    background: white;
+}
+.contentcenter1{
+    width: 56%;
+    height:197px;
+    float:left;
+    background: white;
+    margin-left: 2%;
+
+}
+.contentright{
+    width:20%;
+    float: right;
+    height: 329px;
+
+    background: white;
+    margin-left: 2%;
+}
+#contentsection>article{
+    
+    margin: 50px;
+}
+.menulist{
+    padding:15px;
+    margin: 0;
+    list-style: none;
+}
+.menulist li a{
+color: #111;
+text-decoration: none;
+display: inline-block;
+padding: 7px;
+font-weight: 100;
+}
+.contentleft h5{
+    padding: 15px;
+    margin: 0;
+    font-size: 12px;
+    font-weight: lighter;
+}
+.menulist li a:hover{
+    border-left: 3px solid red;
+    background: #eee;
+    transition: ease-in-out all 0.5s;
+}
+.iconimages{
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    top: 9px;
+}
+.iconimages1{
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    font-size: 15px;
+    top: 9px;
+
+}
+.alloffers{
+    background: url('../images/Discount_Right_icon-f5105.png');
+    background-size: cover;
+}
+.mobiletablets{
+    background: url('../images/30x30mobile2.png');
+    background-size: cover;
+}
+.electronics{
+    background: url('../images/computer.png');
+    background-size: cover;
+}
+.computergaming{
+    background: url('../images/commputergaming.png');
+    background-size: cover;
+}
+.homeandkitchen{
+    background: url('../images/kitchen.jpg');
+    background-size: cover;
+}
+
+.accounticonimage{
+    width: 18px;
+    height: 25px;
+    background-position: -599px -433px;
+    position: relative;
+    right: 91px;
+    top: -6px;
+  
+}
+   
+.account-icon {
+    background-image: url('../images/newHomePageIcons@1x.png');
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.ordericonimage{
+    width: 18px;
+    height: 25px;
+    background-position: -494px -433px;
+    position: relative;
+    right: 81px;
+    top: -3px;
+
+}
+.shorticonimage{
+    width: 18px;
+    height: 25px;
+    background-position: -523px -433px;
+    position: relative;
+    right: 74px;
+    top: -3px;
+
+}
+.sdiconimage{
+    width: 18px;
+    height: 25px;
+    background-position: -561px -433px;
+    position: relative;
+    right: 65px;
+    top: -3px;
+}
+ .bottomText{
+     text-align: center;
+     padding: 0px;
+     margin-top: -23px
+}
+.bottomText .decore{
+color: #909090;
+font-size: 11px
+
+}
+.bottomText .register{
+    color: white;
+    margin-top: 10px;
+    position: relative;
+    top: -60px;
+}
+button{
+    border: none;
+    width: 163px;
+    background-color: #e40046;
+
+}
+.bottomText>p{
+    position: relative;
+    top:0px;
+}
+.login{
+    position: relative;
+    top: -116px;
+}
+.bottomText>hr{
+   
+    position: relative;
+    top: 30px;
+    
+}
+.contentcenter1 img{
+     
+    background-repeat: no-repeat;
+    height: 316px;
+    width: 682px;
+}
+ .contentimage{
+    background: url('../images/nba-70b93.jpg_');
+    background-repeat: no-repeat;
+    background-size: 0px;
+}
+
+.button1 {
+    width: 159px;
+    height: 41px;
+    margin-left: 8px;
+    background: #333333;
+    border: none;
+    color: white;
+    border-radius: 3px;
+}
+.button2{
+    
+        width: 65px;
+        height: 36px;
+        margin: 2px;
+        border: none;
+        border-radius: 3px;
+        background: #c1c1c1;
+}
+.laptop{
+    float: left;
+    width: 25%;
+    height: 306px;
+    background: white;
+    margin-top: 31px;
+}
+.dvd{
+    float: left;
+    width: 25%;
+    height: 306px;
+    background: white;
+    margin-top: 31px;
+    position: relative;
+   
+
+}
+.alexa{
+    float: left;
+    width: 25%;
+    height: 306px;
+    background: white;
+    margin-top: 31px;
+    position: relative;
+    
+
+}
+.earphone{
+    float: left;
+    width: 25%;
+    height: 306px;
+    background: white;
+    margin-top: 31px;
+    position: relative;
+    
+
+}
+.laptop img, .dvd img, .alexa img, .earphone img{
+    background-repeat: no-repeat;
+    width: 141px !important;
+    height: 151px !important;
+    position: relative;
+    right: -11px;
+    top: 38px;
+}
+
+.laptop p, .dvd p, .alexa p, .earphone p{
+    font-size: 0px;
+    font-size: 13px;
+    position: relative;
+    top: 27px;
+    color: #7f7878;
+    text-align: center;
+
+}
+
+.earphone:hover, .dvd:hover, .laptop:hover, .alexa:hover{
+    box-shadow:2px 2px 20px #333333;
+}
+/*.laptop img:hover, .dvd img:hover, .alexa img:hover, .earphone img:hover{
+    background-repeat: no-repeat;
+    width: 160px !important;
+    height: 160px !important;
+    position: relative;
+    right: -11px;
+    top: 38px;
+}*/
+
+
+
+/*what is difference between display:none and visibility:hidden*/
+/*display none will also remove white space but visibility hidden will not remove white space*/
+/*text-indent:-999 will move out of content*/
+/*tranfrom:skew(50deg,60deg) to roatate the text*/
+/*overflow:scroll it will get you scroll bar */
+/*opacity:0.1 ti will make element transparent*/
+/*filter:grayscale(1) to make black and white*/
+
+
+
